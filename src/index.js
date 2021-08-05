@@ -11,7 +11,8 @@ class App {
    renderTemplate() { 
       const template = `
          <h1>${header.pageTitle, header.pageLogoSrc}</h1>
-         <p>${lunchGen.showResults}</p>
+         <p id="meal-result"></p>
+         <button id="click-here">Click Here</button>
          <footer>${footer.copyrightYear, footer.siteAuthor}</footer>
       
       `;

@@ -6,7 +6,7 @@ class LunchGenerator {
    }
 
    randomizeLunches() {
-      const randomMeal = [
+      const meal = [
          "spaghetti & meatballs",
          "sloppy joes",
          "dinosaur chicken nuggets",
@@ -22,6 +22,18 @@ class LunchGenerator {
 
    showResults() {
       let random_meal = this.randomizeLunches();
+      // document.getElementById("click-here").addEventListener("click",
+      // function randomMeal() {
+      // for (let i = meal.length -1; i > 0; i--) {
+      //    let j = Math.floor(Math.random() * i)
+      //    let k = meal[i]
+      //    meal[i] = meal[j]
+      //    meal[j] = k
+      // }
+      // console.log(randomMeal);
+      // document.getElementById("meal-result").innerHTML = meal[0];
+      // }, false
+      // );
    }
 }
 
