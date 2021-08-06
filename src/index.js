@@ -10,8 +10,10 @@ class App {
 
    renderTemplate() { 
       const template = `
-         <h1>${header.pageTitle}</h1>
-         <img src="${header.pageLogoSrc}">
+         <header>
+            <img src="${header.pageLogoSrc}">
+            <h1>${header.pageTitle}</h1>
+         </header>
          <p id="meal-result"></p>
          <button id="click-here">Click Here</button>
          <footer>${footer.copyrightYear} ${footer.siteAuthor}</footer>

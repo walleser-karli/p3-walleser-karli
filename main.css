@@ -1,3 +1,28 @@
 body {
-   background-color: lime;
+   background-color: #851400;
+   background-image: url(http://www.transparenttextures.com/patterns/ps-neutral.png);
+   font-family: "Roboto", sans-serif;
+}
+
+header {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #bfe4ba;
+   text-align: center;
+   padding-left: 20%;
+   padding-right: 20%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   max-width: 850px;
+}
+
+header img {
+   width: 100%;
+   max-width: 150px;
+}
+
+header h1 {
+   font-family: 'Vidaloka', serif;
+   color: darkslategray;
 }
