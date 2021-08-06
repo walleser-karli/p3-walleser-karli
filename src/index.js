@@ -11,11 +11,21 @@ class App {
    renderTemplate() { 
       const template = `
          <header>
-            <img src="${header.pageLogoSrc}">
-            <h1>${header.pageTitle}</h1>
+            <div>
+               <img src="${header.pageLogoSrc}">
+               <h1>${header.pageTitle}</h1>
+            </div>
          </header>
-         <p id="meal-result"></p>
-         <button id="click-here">Click Here</button>
+         <main>
+            <h3>Feelin' hungry? Can't decide what to eat? Let Chef Karli and her world-renowned <span>Lunchinator</span> fix your lunchtime blues.</h3>
+            <div>
+               <p id="meal-result"></p>
+               <button id="click-here">Click Here</button>
+               <figure>
+                  <img src="./img/chef.png" alt="female chef smiling and holding two plates of food">
+               </figure>
+            </div>
+         </main>
          <footer>${footer.copyrightYear} ${footer.siteAuthor}</footer>
       
       `;

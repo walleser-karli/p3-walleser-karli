@@ -6,6 +6,6 @@ class Header {
 }
 
 export const header = new Header(
-   "Karli's Lunch Generator",
+   "Karli's Lunchinator",
     "./img/basket.png"
     );
