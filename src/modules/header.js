@@ -5,4 +5,7 @@ class Header {
    }
 }
 
-export const header = new Header("Karli's Lunch Generator", "Logo")
+export const header = new Header(
+   "Karli's Lunch Generator",
+    "./img/icon.png"
+    );
